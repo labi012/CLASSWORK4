@@ -1,0 +1,56 @@
+article
+aside
+    header,
+    footer
+    section,
+    nav,
+    figure{
+       display: block; 
+    }
+    header,
+    section,
+    aside{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 800px;
+        border: 3px solid #800000;
+        margin: 2em auto;
+    }
+    header{
+        border-bottom: 3px solid #800000;
+        padding: 15px 5px;
+        background-image: -webkit-linear-gradient(40deg, pink 20%, white 50%, pink 65%);
+        border-bottom: 3px solid #800000;
+        padding: 15px 5px;
+        background-image: -moz-linear-gradient(40deg, pink 20%, white 50%, pink 65%);
+        border-bottom: 3px solid #800000;
+        padding: 15px 5px;
+        background-image: -IE-linear-gradient(40deg, pink 20%, white 50%, pink 65%);
+    }
+    header img{
+        float: left;
+        padding: 15px;
+    }
+    section{
+        float: left;
+        width: 450px;
+        padding-left: 15px;
+        text-align: justify;
+    }
+    section img{
+        float: left;
+        padding: 5px 5px 0 0;
+    }
+    aside{
+        float: right;
+        width: 250px;
+    }
+    footer{
+        clear: both;
+        background-color: #800000;
+        padding: 0.3px 0.3px;
+        color:white;
+        text-align: right;
+    }
